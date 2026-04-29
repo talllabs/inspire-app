@@ -1,1 +1,28 @@
+<!-- Inspire Newsletter Section -->
+<section style="background:#f7f8f7; padding:60px 24px; font-family:Arial, sans-serif;">
+  <div style="max-width:680px; margin:0 auto; background:#ffffff; border:10px solid #f5a400; padding:42px 36px; text-align:center;">
+    
+    <p style="margin:0 0 18px; color:#287e63; font-size:13px; font-weight:bold; letter-spacing:1.5px; text-transform:uppercase;">
+      In Their Own Words
+    </p>
 
+    <div style="font-family:Georgia, serif; color:#f5a400; font-size:70px; line-height:50px;">
+      “
+    </div>
+
+    <p style="margin:12px 0 28px; font-family:Georgia, serif; color:#287e63; font-size:28px; line-height:1.4;">
+      If I could say one thing to the supporters for the past 20 years, it is that you do make a difference.
+    </p>
+
+    <p style="margin:0 0 28px; color:#5f6062; font-size:17px; line-height:1.7;">
+      I’m saving money. I’m working. I’m going to school. I’m paying bills — and I’m doing it well.
+      This organization is a blessing to us. We are more confident stepping out into the world,
+      knowing that no matter what happens, we will be okay.
+    </p>
+
+    <a href="#" style="display:inline-block; background:#e50914; color:#ffffff; text-decoration:none; padding:16px 34px; border-radius:40px; font-size:15px; font-weight:bold;">
+      Donate Today
+    </a>
+
+  </div>
+</section>
