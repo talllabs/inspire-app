@@ -101,21 +101,21 @@ a{text-decoration:none;}
     <tr>
       <td bgcolor="#ffffff" style="padding:28px 50px 0;">
 
-        <!-- thumbnail -->
-        <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
-           style="display:block;">
-          <img src="https://images.squarespace-cdn.com/content/v1/67229fea69cb46600173e12f/9429ac3b-4d8c-4105-b890-6815a827d3ed/Screenshot+2026-04-29+at+5.59.12%E2%80%AFPM.png"
-               width="500" alt="Watch our youth share their story"
-               class="fluid"
-               style="width:500px;max-width:100%;height:auto;display:block;border-radius:6px;">
-        </a>
-
-        <!-- play button overlay via negative margin -->
-        <div align="center" style="margin-top:-70px;position:relative;line-height:0;">
-          <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank">
-            <img src="https://www.freepnglogos.com/uploads/play-button-png/index-media-cover-art-play-button-overlay-5.png"
-                 width="92" alt="Play Video" class="play-btn"
-                 style="width:92px;max-width:92px;height:auto;display:inline-block;">
+        <!-- thumbnail + play button overlay -->
+        <div style="position:relative;line-height:0;border-radius:6px;overflow:hidden;">
+          <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
+             style="display:block;line-height:0;">
+            <img src="https://images.squarespace-cdn.com/content/v1/67229fea69cb46600173e12f/9429ac3b-4d8c-4105-b890-6815a827d3ed/Screenshot+2026-04-29+at+5.59.12%E2%80%AFPM.png"
+                 width="500" alt="Watch our youth share their story"
+                 class="fluid"
+                 style="width:500px;max-width:100%;height:auto;display:block;">
+          </a>
+          <!-- centered play button -->
+          <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
+             style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+                    display:block;width:72px;height:72px;border-radius:50%;
+                    background:rgba(255,255,255,0.9);text-align:center;line-height:72px;">
+            <span style="font-size:28px;color:#1f6b5a;margin-left:5px;">&#9654;</span>
           </a>
         </div>
 
