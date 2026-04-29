@@ -99,38 +99,32 @@ a{text-decoration:none;}
 
     <!-- ── VIDEO THUMBNAIL ── -->
     <tr>
-      <td bgcolor="#ffffff" style="padding:28px 50px 36px;">
-        <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
-           style="display:block;position:relative;border-radius:6px;overflow:hidden;">
+      <td bgcolor="#ffffff" style="padding:28px 50px 0;">
 
-          <!-- thumbnail -->
+        <!-- thumbnail -->
+        <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
+           style="display:block;">
           <img src="https://images.squarespace-cdn.com/content/v1/67229fea69cb46600173e12f/9429ac3b-4d8c-4105-b890-6815a827d3ed/Screenshot+2026-04-29+at+5.59.12%E2%80%AFPM.png"
                width="500" alt="Watch our youth share their story"
                class="fluid"
                style="width:500px;max-width:100%;height:auto;display:block;border-radius:6px;">
         </a>
 
-        <!-- play button row (email-safe separate row technique) -->
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr>
-            <td align="center" style="padding-top:16px;">
-              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td bgcolor="#1f6b5a" style="border-radius:40px;">
-                    <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank"
-                       style="display:inline-block;padding:13px 30px;font-family:Arial,Helvetica,sans-serif;
-                              font-size:14px;font-weight:bold;letter-spacing:0.05em;color:#ffffff;
-                              text-transform:uppercase;">
-                      ▶&nbsp; Watch Their Stories
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+        <!-- play button overlaid via negative margin — works in most email clients -->
+        <div align="center" style="margin-top:-70px;position:relative;line-height:0;">
+          <a href="https://www.inspirelifeskills.org/welcome-to-inspire" target="_blank">
+            <img src="https://www.freepnglogos.com/uploads/play-button-png/index-media-cover-art-play-button-overlay-5.png"
+                 width="92" alt="Play Video" class="play-btn"
+                 style="width:92px;max-width:92px;height:auto;display:inline-block;">
+          </a>
+        </div>
 
       </td>
+    </tr>
+
+    <!-- spacer below video -->
+    <tr>
+      <td bgcolor="#ffffff" height="28" style="font-size:0;line-height:0;">&nbsp;</td>
     </tr>
 
     <!-- ── BODY COPY ── -->
